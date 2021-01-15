@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Woring on javaScript data types</h1>
+    <script>
+
+        /*
+        1. Primitive types---number, string, boolean, undefined
+            (stores in stack memory)
+
+        2. Reference types--Array, object etc.
+           (store data in heap memory)
+
+        */
+
+
+
+      console.log("welcome");
+    // Primitive types
+        /*
+       let x=222;
+       console.log(typeof x);//number
+
+        let y=90.888;
+        console.log(typeof y);//number
+
+        let name="pradeep";
+        console.log(typeof name);//string
+
+        let ch='c';
+        console.log(typeof ch);//string
+
+        let isActive=true;
+        console.log(typeof isActive);//boolean
+
+        var un;
+        console.log(typeof un);//undefined
+        un=90;
+        console.log(typeof un);//number
+        
+        var n=null;
+        console.log(typeof n);//object
+      */
+
+        //reference types
+        let names=["first","second","third","fourth","fifth"];
+        console.log(typeof names);
+
+        let x=23;
+        let y=23;
+        console.log(x==y);
+        let xa=[23];
+        let ya=[23];
+        console.log(xa==ya);
+
+        let student={
+            name:"pradeep",
+            address:"noida"
+        };
+        console.log(student);
+        console.log(typeof student);
+
+
+        let d=new Date();
+        console.log(d);
+        console.log(typeof d);
+
+
+    </script>
+    
+</body>
+</html>
